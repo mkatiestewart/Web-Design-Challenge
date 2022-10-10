@@ -8,7 +8,7 @@ body{
 .navbar{
 	max-height: 50px;
 		background-color: #78BEBC;
-	font-size:  15px;
+	font-size:  18px;
 }
 
 .navigation .navbar-brand{
@@ -16,6 +16,7 @@ body{
 	margin-left: 50px;
 	padding:  inherit;
 	font-weight: bold;
+	font-size: 22px;
 	background-color: #78BEBC;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
@@ -49,7 +50,6 @@ body{
 
 	}
 	.navbar-brand{
-		padding: 10px;
 	}
 
 	button{
@@ -101,8 +101,38 @@ p{
 	color: #414d4a;
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #E5E5E5;
+}
+
+tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .table-responsive > table {
+    width: 100%;
+  }
 
 .active, .imageNav-photo:hover{
 	border-color: #78BEBC;
@@ -110,17 +140,16 @@ p{
 }
 
 .footer{
-	background-color: #505251;
+	background-color: #DCDCDC;
 	border-top-style: solid; 
-    border-top-width: 4px; 
+    border-top-width: 6px; 
     border-top-color: #78BEBC;
-    color: white; 
-    min-height: 50px; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    text-align: center; 
+    color: #696969;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    font-size: 20px;
+    min-height: 30px; 
     position: fixed;
-    padding-top: 10px; 
 	width: 100%;
 	left: 0;
 	bottom: 0;
